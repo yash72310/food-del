@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.logo} alt="" />
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h2 >FoodyHub.</h2>
+            <p>Ordering food from our website is a seamless and enjoyable experience. Simply browse through our extensive menu, filled with a variety of delicious options to suit every palate. Once you've made your selection, add your desired items to the cart and proceed to checkout.</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 © Tomato.com - All Right Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 © FoodyHub.com - All Right Reserved.</p>
     </div>
   )
 }
